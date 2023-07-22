@@ -1,0 +1,93 @@
+.search_card
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.search_card .card_img
+{
+    min-width: 120px;
+    height: auto;
+}
+
+.search_card .card_img img
+{
+    width: 100%;
+}
+
+.search_card span
+{
+    font-size: 0.8em;
+    color: #999;
+    min-width: 125px;
+}
+
+.search_card .text_container
+{
+    margin-right: 50px;
+}
+.search_card .text_container h4
+{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.search_card .text_container .author
+{
+    font-size: 0.8em;
+    color: #222;
+}
+.search_card .text_container .card_text
+{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+@media screen and (max-width: 900px) {
+    .search_card
+    {
+        flex-direction: column;
+        padding: 20px;
+        width: 90%;
+    }
+    .search_card span
+    {
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .search_card .text_container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search_card .text_container .card_text,
+    .search_card .text_container .author
+    {
+        width: 80%;
+    }
+    .search_card .text_container .author
+    {
+        margin-bottom: 50px;
+    }
+    .search_card .text_container h4
+    {
+        max-width: 80%;
+    }
+    .search_card .card_img
+    {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    
+}

@@ -1,0 +1,47 @@
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    flex-direction: column;
+    padding: 30px;
+}
+.footer p span
+{
+    font-weight: bold;
+}
+.social_media
+{
+    margin-bottom: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social_media a
+{  
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #7a7a7a;
+    text-align: center;
+}
+.social_media a svg{
+    font-size: 2em;
+    transform: translateY(50%);
+}
+.social_media a:hover
+{
+    transform: translateY(-15px);
+}
+.linkedin:hover
+{
+    color: #0A66C2;
+}
+
+.github:hover
+{
+    color: #010409;
+}

@@ -1,0 +1,28 @@
+.article_card{
+    border-bottom: 1px solid #adadad;
+    flex: 1 1 39%;
+    padding: 15px;
+    height: 200px;
+
+}
+.article_card h2
+{
+    margin-bottom: 20px;
+}
+.article_card p
+{
+    color: #555;
+    max-height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 900px){
+    .article_card{
+        flex: 1 1 80%;
+        height: 300px
+    }
+    
+    
+
+}

@@ -1,0 +1,27 @@
+.loader
+{
+    margin: 2.5em auto;
+    width: 60px;
+    height: 60px;
+    background-image: conic-gradient(rgba(0,0,0,0.5) , transparent 70% );
+    border-radius: 50%;
+    position: relative;
+    animation: animate linear infinite 0.3s;
+}
+.loader::after
+{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    inset: 10px;
+    border-radius: 50%;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
